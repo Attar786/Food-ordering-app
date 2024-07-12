@@ -41,7 +41,7 @@
 .search-icon{
     position: relative;
 }
-/* .search-icon .dot{ */
+.search-icon .dot{
     /* position: absolute;
     top: -5px; 
     right: -5px; 
@@ -50,13 +50,3 @@
     background-color: blue;
     border-radius: 50%;
 } */
-.dot {
-    position: absolute;
-    top: 8px; /* Adjust as needed */
-    right: 238px; /* Adjust as needed */
-    width: 10px;
-    height: 10px;
-   
-    background-color: tomato;
-    border-radius: 50%;
-  }

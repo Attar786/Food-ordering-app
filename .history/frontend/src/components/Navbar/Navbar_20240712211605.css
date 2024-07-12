@@ -41,22 +41,13 @@
 .search-icon{
     position: relative;
 }
-/* .search-icon .dot{ */
-    /* position: absolute;
-    top: -5px; 
-    right: -5px; 
-    width: 10px;
-    height: 10px;
-    background-color: blue;
-    border-radius: 50%;
-} */
-.dot {
+.dot{
     position: absolute;
-    top: 8px; /* Adjust as needed */
-    right: 238px; /* Adjust as needed */
-    width: 10px;
-    height: 10px;
-   
-    background-color: tomato;
-    border-radius: 50%;
-  }
+    min-width: 10px;
+    min-height: 10px;
+    background-color : tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+    transform: translate(-50%,-50%);
+}

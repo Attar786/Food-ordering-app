@@ -12,8 +12,7 @@
     list-style: none;
     gap: 20px;
     font: 18px;
-    color: #49557e;
-    cursor: pointer;
+    color: #49557e
 }
 .navbar-right{
     display: flex;
@@ -33,30 +32,8 @@
 .Navbar button:hover{
     background-color: #fff4f2;
 }
-.Navbar .navbar-menu .active{
+.Navbar .active{
     padding-bottom: 2px;
     border-bottom: 2px solid #49557e;
 
 }
-.search-icon{
-    position: relative;
-}
-/* .search-icon .dot{ */
-    /* position: absolute;
-    top: -5px; 
-    right: -5px; 
-    width: 10px;
-    height: 10px;
-    background-color: blue;
-    border-radius: 50%;
-} */
-.dot {
-    position: absolute;
-    top: 8px; /* Adjust as needed */
-    right: 238px; /* Adjust as needed */
-    width: 10px;
-    height: 10px;
-   
-    background-color: tomato;
-    border-radius: 50%;
-  }

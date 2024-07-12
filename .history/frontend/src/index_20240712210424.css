@@ -18,4 +18,12 @@ color : inherit;
     width: 80%;
     margin: auto;
 }
-
+.search-icon{
+    position: relative;
+}
+.search-icon .dot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

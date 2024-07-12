@@ -1,0 +1,29 @@
+.Navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar .logo{
+    width: 150px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font: 18px;
+    color: #49557e
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+.Navbar button{
+    font-size: 16px;
+    border: 1px solid #49557e;
+    background: transparent;
+    /* padding: 10px 20px; */
+    cursor: pointer;
+}

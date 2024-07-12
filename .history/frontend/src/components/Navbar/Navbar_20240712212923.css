@@ -52,11 +52,12 @@
 } */
 .dot {
     position: absolute;
-    top: 8px; /* Adjust as needed */
-    right: 238px; /* Adjust as needed */
+    top: 0; /* Adjust as needed */
+    right: -5px; /* Adjust as needed */
     width: 10px;
     height: 10px;
-   
+    top: -8%;
+    right: -8%;
     background-color: tomato;
     border-radius: 50%;
   }
