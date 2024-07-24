@@ -43,6 +43,6 @@
     border: none;
 }
 .explore-menu-list-item .active{
-    border:3px solid tomato;
+    border:2px solid tomato;
     padding: 2px;
 }

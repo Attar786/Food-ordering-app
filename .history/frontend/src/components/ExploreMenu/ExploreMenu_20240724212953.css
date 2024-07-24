@@ -30,19 +30,3 @@
     border-radius: 50%;
     transition: 0.3s;
 }
-
-.explore-menu-list-item p{
-    cursor: pointer;
-    color: #747474;
-    font-size: max(1.4vw, 16px)
-}
-.explore-menu hr{
-    margin: 10px 0px;
-    height: 2px;
-    color: #e2e2e2;
-    border: none;
-}
-.explore-menu-list-item .active{
-    border:3px solid tomato;
-    padding: 2px;
-}
