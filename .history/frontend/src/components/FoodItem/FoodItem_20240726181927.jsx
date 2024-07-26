@@ -1,22 +1,21 @@
 import './FoodItem.css';
 import { assets } from '../../assets/assets';
-import { useState } from 'react';
-
+import {useState} from 'react'
 const FoodItem = ({ id, name, price, description, image }) => {
-  const [itemCount, setItemCount] = useState(0);
 
+
+  const [itemCount, SetItemCount] = useState(0)
   return (
     <div className='food-item'>
       <div className='food-item-img-container'>
         <img className='food-item-image' src={image} alt={name} />
         {
-          !itemCount 
-            ? <img className='add' onClick={() => setItemCount(prev => prev + 1)} src={assets.add_icon_white} alt="" />
-            : <div className='food-item-counter'>
-                <img onClick={() => setItemCount(prev => prev > 0 ? prev - 1 : 0)} src={assets.remove_icon_red} alt="" />
-                <p>{itemCount}</p>
-                <img onClick={() => setItemCount(prev => prev + 1)} src={assets.add_icon_green} alt="" />
-              </div>
+!itemCount 
+?<img className='add' onClick={()=>SetItemCount(prev=>prev+1)} src='{assets.add_icon_white}' alt = ""/>
+:<div>
+
+</div>
+
         }
       </div>
       <div className='food-item-info'>
@@ -27,8 +26,7 @@ const FoodItem = ({ id, name, price, description, image }) => {
         <p className='food-item-description'>
           {description}
         </p>
-        <p className='food-item-price'>RS{price}</p>
-      </div>
+        <p className='food-item-price'>RS{price}</p>      </div>
     </div>
   );
 };

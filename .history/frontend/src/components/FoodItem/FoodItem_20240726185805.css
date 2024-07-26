@@ -59,9 +59,6 @@
     align-items: center;
     gap: 10px;
     padding: 6px;
-    border-radius:50px;
+    border-radius:50%
     
-}
-.food-item-counter img{
-    width: 30px;
 }
