@@ -10,13 +10,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar">
+    <div className="Navbar">
       <img src={assets.logo} alt="Logo" className="logo" />
       <ul className="navbar-menu">
-        <Link to='/' onClick={() => handleMenuClick("home")} className={menu === "home" ? "active" : ""}>Home</Link>
+        <Link onClick={() => handleMenuClick("home")} className={menu === "home" ? "active" : ""}>Home</Link>
         <a href='#explore-menu' onClick={() => handleMenuClick("menu")} className={menu === "menu" ? "active" : ""}>Menu</a>
-        <a href='#app-download' onClick={() => handleMenuClick("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>Mobile App</a>
-        <a href='#footer' onClick={() => handleMenuClick("contact-us")} className={menu === "contact-us" ? "active" : ""}>Contact Us</a>
+        <a href='#' onClick={() => handleMenuClick("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>Mobile App</a>
+        <a href='#' onClick={() => handleMenuClick("contact-us")} className={menu === "contact-us" ? "active" : ""}>Contact Us</a>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="search-icon" />

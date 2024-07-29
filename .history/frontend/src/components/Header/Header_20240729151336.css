@@ -45,7 +45,7 @@ animation: fadeIn 3s;
 
 @media (max-width:750px) {
     .header-contents{
-        max-width: 65%;
+        max-width: 55%;
     }
     .header-contents p{
 display: none;    }

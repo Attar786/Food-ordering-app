@@ -93,7 +93,7 @@
         }
         .navbar-right img{
             width: 17px;
-            
+            gap: 5px;
         }
         .navbar-right button{
             padding: 7px 15px;

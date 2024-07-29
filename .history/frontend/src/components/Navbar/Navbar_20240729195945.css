@@ -21,7 +21,7 @@
     gap: 25px;
 
 }
-.navbar button{
+.Navbar button{
     font-size: 15px;
     border: 1px solid #49557e;
     background: transparent;
@@ -92,8 +92,7 @@
             gap: 20px;
         }
         .navbar-right img{
-            width: 17px;
-            
+            width: 20px;
         }
         .navbar-right button{
             padding: 7px 15px;

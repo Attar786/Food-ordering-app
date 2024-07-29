@@ -38,6 +38,7 @@ margin: 15px;
 .footer-social-icons img:hover {
     width: 40px;
     margin: 15px;
+    background-color: tomato;
     }
 .footer hr{
     width: 100%;
