@@ -17,11 +17,3 @@
     /* border-radius: px; */
     border: 1px solid black;
 }
-.Cart hr{
-    height: 1px;
-    background-color: #e2e2e2;
-    border: none;
-}
-.cross{
-    cursor: pointer;;
-}
