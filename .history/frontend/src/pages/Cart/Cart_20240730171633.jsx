@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "./Cart.css";
 import { StoreContext } from "../../context/StoreContext";
 const Cart = () => {
-  const { cartItems, food_list, removeFromCart, getTotalCartAmount} = useContext(StoreContext);
+  const { cartItems, food_list, removeFromCart, getTotalCartAmount } = useContext(StoreContext);
   return (
     <>
       <div className="Cart">

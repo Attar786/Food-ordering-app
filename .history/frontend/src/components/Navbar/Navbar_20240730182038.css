@@ -53,7 +53,7 @@
 .dot {
     position: absolute;
     top: 17px; /* Adjust as needed */
-    right: 268px; /* Adjust as needed */
+    right: 28px; /* Adjust as needed */
     width: 10px;
     height: 10px;
     background-color: tomato;

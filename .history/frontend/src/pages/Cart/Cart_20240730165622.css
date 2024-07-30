@@ -90,7 +90,4 @@ gap: max(12vw,20px);
     .cart-bottom{
         flex-direction: column-reverse;
     }
-    .cart-promocode{
-        justify-content: start;
-    }
 }

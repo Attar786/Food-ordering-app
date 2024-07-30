@@ -79,18 +79,4 @@ gap: max(12vw,20px);
 .cart-promocode-input button{
     width: max(12px, 150px);
     padding: 12px 5px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 4px
-}
-
-@media (max-width:750px)
-{
-    .cart-bottom{
-        flex-direction: column-reverse;
-    }
-    .cart-promocode{
-        justify-content: start;
-    }
 }

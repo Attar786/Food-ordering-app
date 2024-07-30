@@ -1,5 +1,5 @@
 import "./StoreContext.css";
-import { createContext,useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { food_list } from "../assets/assets"; // Ensure this path is correct and food_list is correctly exported
 
 export const StoreContext = createContext(null);
@@ -31,12 +31,12 @@ const StoreContextProvider = (props) => {
     let totalAmount = 0;
     for (const item in cartItems) {
       if (cartItems[item] > 0) {
-        let itemInfo = food_list.find((product)=>product._id === item);
+        let itemInfo = food_list.find((product) => product.id === item);
         totalAmount += itemInfo.price * cartItems[item];
       }
-    }  
+    }
     return totalAmount;
-  }
+  };
 
   // useEffect(() => {
   //   console.log(cartItems);
@@ -48,7 +48,6 @@ const StoreContextProvider = (props) => {
     setCartItems,
     addToCart,
     removeFromCart,
-    getTotalCartAmount
   };
 
   return (

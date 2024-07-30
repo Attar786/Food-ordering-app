@@ -1,5 +1,5 @@
 import "./StoreContext.css";
-import { createContext,useState } from "react";
+import { createContext,useState, useEffect } from "react";
 import { food_list } from "../assets/assets"; // Ensure this path is correct and food_list is correctly exported
 
 export const StoreContext = createContext(null);
@@ -38,9 +38,9 @@ const StoreContextProvider = (props) => {
     return totalAmount;
   }
 
-  // useEffect(() => {
-  //   console.log(cartItems);
-  // }, [cartItems]);
+  useEffect(() => {
+    console.log(cartItems);
+  }, [cartItems]);
 
   const contextValue = {
     food_list,
