@@ -1,12 +1,8 @@
-import { useContext } from 'react'
 import './PlaceOrder.css'
-import { StoreContext } from '../../context/StoreContext'
 const PlaceOrder = () => {
-  const {getTotalCartAmount} = useContext(StoreContext);
-  
   return (
 
-<form className='place-order'>
+<form>order page
   <div className="place-order-left">
     <p className="title">Delivery Information</p>
     <div className="multi-fields">
@@ -37,12 +33,12 @@ const PlaceOrder = () => {
             <hr />
             <div className="cart-total-details">
               <p>Delivery Fee</p>
-              <p>{getTotalCartAmount()===0?0:200}</p>
+              <p>{200}</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <b>Total</b>
-              <b>{getTotalCartAmount()===0?0:getTotalCartAmount()+200}</b>
+              <b>{getTotalCartAmount()+200}</b>
             </div>
           </div>
           <button>PROCEED TO PAYMENT</button>
