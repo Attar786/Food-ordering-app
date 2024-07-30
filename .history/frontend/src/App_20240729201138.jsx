@@ -9,17 +9,17 @@ import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import { useState } from 'react'
 function App() {
-  const [showLogin, setShowLogin] = useState(false);
-  
+  const [showLogin, setShowLogin] = useState(fasle);
   return (
     <>       
-  {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}     
+       
   <div className='app'>
-  <Navbar setShowLogin = {setShowLogin} />
+  <Navbar/>
 <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/cart' element={<Cart/>}/>
 <Route path='/order' element={<PlaceOrder/>}/>
+
 </Routes>
   </div>
   <Footer/>

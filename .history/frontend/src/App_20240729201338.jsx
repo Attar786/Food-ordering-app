@@ -13,13 +13,14 @@ function App() {
   
   return (
     <>       
-  {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}     
+  {showLogin?<LoginPopup/>:<></>}     
   <div className='app'>
-  <Navbar setShowLogin = {setShowLogin} />
+  <Navbar showLogin = {setShowLogin} />
 <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/cart' element={<Cart/>}/>
 <Route path='/order' element={<PlaceOrder/>}/>
+
 </Routes>
   </div>
   <Footer/>
